@@ -48,6 +48,11 @@ box-shadow: var(--glass-shadow); */
   transition: background 0.3s ease;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
+
 ::-webkit-scrollbar-thumb:hover {
   background: var(--base-color);
 }
