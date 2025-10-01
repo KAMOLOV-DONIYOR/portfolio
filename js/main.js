@@ -144,21 +144,21 @@ document.querySelectorAll('.dropdown a[href^="#"]').forEach((link) => {
 });
 // smooth scroll
 
-const backToTopBtn = document.getElementById("backToTop");
-function toggleBackToTop() {
-  if (window.scrollY > 200) {
-    backToTopBtn.classList.add("show");
-  } else {
-    backToTopBtn.classList.remove("show");
-  }
-}
-window.addEventListener("scroll", toggleBackToTop);
-window.addEventListener("load", toggleBackToTop);
-// Click qilib tepaga qaytarish
-backToTopBtn.addEventListener("click", () => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
-});
-// Scroll to Top Button
+// const backToTopBtn = document.getElementById("backToTop");
+// function toggleBackToTop() {
+//   if (window.scrollY > 200) {
+//     backToTopBtn.classList.add("show");
+//   } else {
+//     backToTopBtn.classList.remove("show");
+//   }
+// }
+// window.addEventListener("scroll", toggleBackToTop);
+// window.addEventListener("load", toggleBackToTop);
+// // Click qilib tepaga qaytarish
+// backToTopBtn.addEventListener("click", () => {
+//   window.scrollTo({ top: 0, behavior: "smooth" });
+// });
+// // Scroll to Top Button
 
 // Translate Language Switcher
 let translations = {};

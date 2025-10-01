@@ -58,7 +58,7 @@ body {
   /* font-family: "Segoe UI", "Segoe UI Variable", "Segoe UI Historic",
   "Segoe UI Emoji", sans-serif; */
   font-family: 'Inter', sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 .container {
   width: 1140px;
